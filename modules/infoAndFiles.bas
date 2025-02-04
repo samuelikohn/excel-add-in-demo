@@ -35,6 +35,15 @@ exitHandler:
     
 End Sub
 
+Sub viewVideoGuide(Optional control As IRibbonControl)
+    ''' Opens a YouTube video demonstrating the macros and forms in this add-in in your default web browser.
+    
+    
+    
+    ActiveWorkbook.FollowHyperlink Address:="https://www.youtube.com/watch?v=c0MCmpdpiKM"
+    
+End Sub
+
 Sub viewInstallationGuide(Optional control As IRibbonControl)
     ''' Opens a PDF of the general Excel Add-in installation guide in your default PDF viewing program.
 
@@ -49,6 +58,6 @@ Sub viewAbout(Optional control As IRibbonControl)
 
 
 
-    dummy = MsgBox("Excel Add-in Demo created by Sam Kohn." & vbCrLf & vbCrLf & "Contact: samuelikohn@gmail.com", Title:="About This Add-in")
+    dummy = MsgBox("Excel Add-in Demo created by Sam Kohn." & vbCrLf & vbCrLf & "Github: https://github.com/samuelikohn/excel-add-in-demo" & vbCrLf & vbCrLf & "Contact: samuelikohn@gmail.com", Title:="About This Add-in")
     
 End Sub
