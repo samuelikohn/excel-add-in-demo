@@ -1,0 +1,17 @@
+{
+	"name": "Corporation, Inc.",
+	"employees": [
+		{
+			"name": "Alice",
+			"email": "alice@example.com"
+		},
+		{
+			"name": "Bob",
+			"email": "bob123@example.com"
+		},
+		{
+			"name": "Charlie",
+			"email": "charles_the_man@example.com"
+		}
+	]
+}
